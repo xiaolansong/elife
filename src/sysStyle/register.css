@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.registerTop{
+    width: 100%;
+    height: 40px;
+    background-color: #00c4b3;
+    color: #fff;
+    line-height: 40px;
+    font-size: 20px;
+    text-align: center;
+}
+.ruserStyle{
+    margin-top: 3%;
+    margin-left: 38%;
+}
+.ruserImg{
+    width: 60px;
+    height: 60px;
+    background-color: #fff;
+    display: block;
+    float: left;
+    border-bottom-left-radius:15px;
+    border-top-left-radius:15px;
+    border-right: solid 2px #ccc;
+    border: solid 1px #00c4b3;
+}
+.rusername{
+    width: 270px;
+    height: 60px;
+    display: block;
+    border-style:none;
+    border-bottom-right-radius:15px;
+    border-top-right-radius:15px;
+    border: solid 1px #00c4b3;
+
+}
+/* 密码 */
+.rpswdStyle{
+    margin-top: 3%;
+    margin-left: 38%;
+}
+.rpassword{
+    width: 270px;
+    height: 60px;
+    display: block;
+    border-style: none;
+    border-bottom-right-radius:15px;
+    border: solid 1px #00c4b3;
+    border-top-right-radius:15px;
+}
+.rpswdTwoStyle{
+    margin-top: 3%;
+    margin-left: 38%;
+}
+.rpasswordtwo{
+    width: 270px;
+    height: 60px;
+    display: block;
+    border-style: none;
+    border-bottom-right-radius:15px;
+    border: solid 1px #00c4b3;
+    border-top-right-radius:15px;
+}
+/* 图标样式 */
+.icon{
+    width: 50%;
+    height: 50%;
+    margin:25%;
+}

@@ -1,0 +1,20 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.feedbackList{
+    margin-top: 100px;
+    margin-left: 50px;
+}
+.feedbackList table{
+    border: solid 2px #bbb; 
+}
+.feedbackList table tr:nth-child(2n+1){
+    background-color:#e8e8e8;
+}
+.feedbackList table tr td{
+    width: 300px;
+    height: 30px;
+    text-align: center;
+    border: solid 1px #bbb;
+}

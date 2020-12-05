@@ -1,0 +1,46 @@
+*{
+    padding:0;
+    margin: 0;
+}
+ul,li{
+    list-style: none;
+    margin-right: 0;
+}
+.appList{
+    width: 72px;
+    float: left;
+    margin-top: 90px;
+}
+.appList li{
+    margin-bottom: 10px;
+    width: 70px;
+    height: 70px;
+    border:solid 1px #BBBBBB;
+    cursor: pointer;
+    margin-right: 0;
+}
+.appList .addApp{
+    height: 20px;
+    overflow: hidden;
+    position: fixed;
+    top: 90px;
+} 
+.appList li:nth-child(2){
+    margin-top: 30px;
+} 
+.appList li img{
+    width: 60%;
+    height:60%;
+    display: block;
+    margin-top: 20%;
+    margin-left: 20%;
+}
+.appList li a{
+    height: 100%;
+    color: #000;
+    display: inline-block;
+    background-color: #e8e8e8;
+}
+.appList li .active{
+    background-color: #fff;
+}

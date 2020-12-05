@@ -1,0 +1,60 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.topStyle{
+    width: 100%;
+    height: 90px;
+    position: fixed;
+    top:0
+}
+.headStyle{
+    height: 50px;
+    background-color: #00c4b3;
+}
+.logoStyle{
+    height: 60%;
+    float: left;
+    margin-top: 8px;
+    margin-left: 5%;
+}
+.headStyle span{
+    color: #fff;
+    float: left;
+    line-height: 40px;
+    font-size: 20px;
+}
+.exitBtn{
+    width: 80%;
+    height: 100%;
+    margin:0 10%;
+    display: block;
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    line-height: 40px;
+}
+nav a{
+    width:25%;
+    height:40px;
+    display: inline-block;
+    background-color:#e8e8e8;
+    font-size:20px;
+    line-height:40px;
+    text-align:center;
+    cursor:pointer;
+    color:#000
+}
+nav .active{
+    width:25%;
+    height:38px;
+    display: inline-block;
+    background-color:#fff;
+    font-size:20px;
+    line-height:40px;
+    text-align:center;
+    cursor:pointer;
+    color:#000;
+    border-bottom: solid 2px #00c4b3;
+}

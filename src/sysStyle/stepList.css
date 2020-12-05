@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.stepList{
+    width:80%;
+    padding-top: 150px;
+    float: right;
+    margin-right: 10%;
+}
+.stepList li {
+    width:200px;
+    height: 300px;
+    float: left;
+    border:solid 2px #00c4b3;
+    margin:0 10px 10px 10px;
+}
+.stepList li img{
+    width: 75%;
+    margin-left: 12.5%;
+    display: block;
+}
+.stepList li span{
+    display: block;
+    margin-left: 12.5%;
+}
