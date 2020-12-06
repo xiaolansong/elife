@@ -80,7 +80,7 @@ class Login extends React.Component {
             <form encType="multipart/form-data">
                 <div className='top'>
                     <span>没有账号？</span>
-                    <NavLink to='/register'>去注册</NavLink>
+                    <NavLink to='/elife/register'>去注册</NavLink>
                 </div>
                 <img src={logoSrc} alt='加载失败' className='logo' /><br />
                 {/* 用户名 */}
