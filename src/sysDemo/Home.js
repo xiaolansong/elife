@@ -25,7 +25,7 @@ const btnStyle={
 }
 const Home = (props) => {
     if(!localStorage.getItem('token')){
-        props.history.push('/');
+        props.history.push('/elife/');
     }
      //获取App列表
      useEffect(() => {
@@ -58,7 +58,7 @@ const Home = (props) => {
                                 <li 
                                     key={idx}
                                     onClick={() => { 
-                                        props.history.push({pathname:'/article',state:item}) ;                                                      
+                                        props.history.push({pathname:'/elife/article',state:item}) ;                                                      
                                     }}
                                 >
                                     <img src={item.image} alt='加载失败'/>

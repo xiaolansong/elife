@@ -16,7 +16,7 @@ const PraDetails = (props) => {
     }
     return (
         <div>
-            <NavLink to='/home'><Button style={goBack}>返回首页</Button></NavLink>
+            <NavLink to='/elife/home'><Button style={goBack}>返回首页</Button></NavLink>
             <div>
                 <div className='imgStyle'>
                     <span className='spanStyle'>贴士图片</span>

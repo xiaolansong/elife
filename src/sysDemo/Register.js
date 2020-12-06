@@ -68,7 +68,7 @@ class Register extends React.Component {
                         return;
                     }
                     localStorage.setItem('token', d.token);
-                    this.props.history.push('/')
+                    this.props.history.push('/elife/')
                 })
                 .catch(err => {
                     console.log(err)

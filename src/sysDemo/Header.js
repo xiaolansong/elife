@@ -28,7 +28,7 @@ const Header =(props)=>{
                     onClick={()=>{
                         let exit = window.confirm("确认退出登录？");
                         if(exit === true){
-                            props.props.history.push('/');
+                            props.props.history.push('/elife/');
                             localStorage.removeItem('token');
                         }
                     }}    
@@ -37,10 +37,10 @@ const Header =(props)=>{
                 </Button>
            </header>
             <nav>
-                <NavLink activeClassName='active' exact to='/home'>生活小贴士</NavLink>
-                <NavLink activeClassName='active' to='/useapp'>易用App</NavLink>
-                <NavLink activeClassName='active' to='/userinfo'>用户信息</NavLink>
-                <NavLink activeClassName='active' to='/feedback'>意见反馈</NavLink>
+                <NavLink activeClassName='active' exact to='/elife/home'>生活小贴士</NavLink>
+                <NavLink activeClassName='active' to='/elife/useapp'>易用App</NavLink>
+                <NavLink activeClassName='active' to='/elife/userinfo'>用户信息</NavLink>
+                <NavLink activeClassName='active' to='/elife/feedback'>意见反馈</NavLink>
             </nav>
         </div>
     )

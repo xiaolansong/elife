@@ -13,7 +13,7 @@ const AppfunList = (props) => {
     },[]);
     const routes=props.fundata.map((item)=>{
         let obj={
-            path:props.match.path+'/'+item.ename.split('_')[1],
+            path:'/elife'+props.match.path+'/'+item.ename.split('_')[1],
             component:FunStepList
         };
         return obj;

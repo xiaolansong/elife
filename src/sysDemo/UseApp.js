@@ -9,7 +9,7 @@ import {addApp} from '../sysRedux/upLoadFile';
 
 const UseApp = (props) => {
     if(!localStorage.getItem('token')){
-        props.history.push('/');
+        props.history.push('/elife/');
     }
     //获取App列表
     useEffect(() => {
@@ -18,7 +18,7 @@ const UseApp = (props) => {
     console.log(props);
     const routes=props.appdata.map((item)=>{
         let obj={
-            path:props.match.path+'/'+item.appname,
+            path:'/elife'+props.match.path+'/'+item.appname,
             component:AppfunList
         };
         return obj;

@@ -12,7 +12,7 @@ const changePoints = (that)=>{
 
 const UserInfo = (props) => {
     if(!localStorage.getItem('token')){
-        props.history.push('/');
+        props.history.push('/elife/');
     }
     //获取用户信息列表
     useEffect(() => {

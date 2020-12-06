@@ -9,33 +9,33 @@ import Register from './sysDemo/Register';
 
 const routes = [
     {
-        path:'/',
+        path:'/elife/',
         exact:true,
         component:Login
     },
     {
-        path:'/home',
+        path:'/elife/home',
         exact:true,
         component:Home,      
     },
     {
-        path:'/register',
+        path:'/elife/register',
         component:Register
     },
     {
-        path:'/article',
+        path:'/elife/article',
         component:PraDetails
     },
     {
-        path:'/useapp',
+        path:'/elife/useapp',
         component:UseApp
     },
     {
-        path:'/userinfo',
+        path:'/elife/userinfo',
         component:UserInfo,
     },
     {
-        path:'/feedback',
+        path:'/elife/feedback',
         component:Feedback
     }
 ]
